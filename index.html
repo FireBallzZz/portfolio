@@ -70,12 +70,74 @@
               </ul>
             </div>
             <div class="copyright-text">
-              <p>My Friends Portfolio Link</p>
-            </div>
-          </div>
-        </div>
-      </div>
+  <p>My Friends Portfolio</p>
+  <div class="copyright-text">
+    <div class="friend-portfolio-links">
+      <a href="friend1-portfolio.html" class="portfolio-btn">
+        <i class="fa fa-user"></i> Friend 1
+      </a>
+      <a href="friend2-portfolio.html" class="portfolio-btn">
+        <i class="fa fa-user"></i> Friend 2
+      </a>
+      <a href="friend3-portfolio.html" class="portfolio-btn">
+        <i class="fa fa-user"></i> Friend 3
+      </a>
+    </div>
+  </div>
+  
+  <style>
+    /* Copyright Section */
+    .copyright-text {
+        text-align: center;
+        font-family: Arial;
+        margin-top: 10px;
+        font-size: 16px;
+        color: #ffffff;
+    }
 
+  
+
+    /* Portfolio Links Section */
+    .friend-portfolio-links {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 20px; /* Adjusted the top margin to move buttons a bit lower */
+    }
+
+    .portfolio-btn {
+        position: relative;
+        top: -20px;
+        display: inline-flex;
+        align-items: center;
+        padding: 6px 12px; /* Smaller padding */
+        background-color: transparent; /* Transparent background */
+        color: #A43F49; /* Border color */
+        text-decoration: none;
+        border: 1px solid A43F49; /* Initial border color */
+        border-radius: 5px;
+        font-size: 14px; /* Smaller font size */
+        font-weight: normal;
+        transition: background-color 0.3s ease, transform 0.3s ease, font-weight 0.3s ease, border-color 0.3s ease;
+    }
+
+    .portfolio-btn i {
+        margin-right: 8px;
+        font-size: 16px;
+    }
+
+    .portfolio-btn:hover {
+        background-color: #720009; /* Transparent background on hover */
+        color: white;
+        transform: scale(1.05);
+       
+        border-color: transparent; /* Border becomes transparent on hover */
+    }
+
+    .portfolio-btn:hover i {
+        color: white; /* Icon color change on hover */
+    }
+</style>
       <section class="section about-me" data-section="section1">
         <div class="container">
           <div class="section-heading">
